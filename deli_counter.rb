@@ -10,7 +10,6 @@ def line(katz_deli)
       puts "The line is currently: #{number_in_line}. #{name} "
       number_in_line += 1
     end
-    katz_deli
   end
 end
 
