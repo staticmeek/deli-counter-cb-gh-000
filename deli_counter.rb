@@ -30,7 +30,8 @@ def line(katz_deli)
   number = 1
   if katz_deli.empty?
     puts "The line is currently empty."
-  elsif
+  else
     katz_deli.join(" #{number}. ")
+    print katz_deli
     end
 end
