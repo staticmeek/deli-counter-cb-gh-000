@@ -32,7 +32,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each_with_index do |item, number|
-      puts "The line is currently: #{number}. #{item}"
+      puts "The line is currently: #{number + 1}. #{item}"
     end
   end
 end
