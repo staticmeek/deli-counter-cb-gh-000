@@ -15,5 +15,5 @@ def take_a_number(katz_deli, name)
   if katz_deli.empty?
     puts "Welcome, #{name}. You are number #{number} in line."
     number += 1
-  end    
+  end
 end
