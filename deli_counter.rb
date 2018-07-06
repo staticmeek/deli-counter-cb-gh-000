@@ -13,8 +13,9 @@ end
 def take_a_number(katz_deli, name)
   number = 1
   if katz_deli.empty?
-    katz_deli.push(name)
+    katz_deli.shift(name)
     puts "Welcome, #{name}. You are number #{number} in line."
     number +=1
+  else
   end
 end
