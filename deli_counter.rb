@@ -32,5 +32,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif
     katz_deli.each do |name|
+      puts "The line is currently: #{number}. #{name} "
+      number +=1
   end
 end
