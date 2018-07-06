@@ -10,5 +10,4 @@ def line(katz_deli)
     katz_deli.push("The line is currently: #{number}. #{name} ")
     number += 1
   end
-
 end
