@@ -27,7 +27,6 @@ end
 
 
 def line(katz_deli)
-  number = 1
   if katz_deli.empty?
     puts "The line is currently empty."
   else
