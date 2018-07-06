@@ -11,18 +11,8 @@ def now_serving(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  number = 1
-  if katz_deli.empty?
-    katz_deli.push(name)
-    puts "Welcome, #{name}. You are number #{number} in line."
-    number +=1
-  elsif
-    katz_deli.push(name)
-    puts "Welcome, #{name}. You are number #{number} in line."
-    number +=1
-  else
-
-  end
+  katz_deli << name
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
 
