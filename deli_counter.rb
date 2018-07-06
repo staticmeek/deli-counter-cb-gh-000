@@ -7,7 +7,7 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   end
-
   katz_deli.each do |name|
-
+    current_line.push("The line is currently: #{number}. #{name} ")
+  end
 end
