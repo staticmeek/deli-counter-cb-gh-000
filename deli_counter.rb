@@ -1,14 +1,10 @@
 # Write your code here.
 require 'pry'
 
-def line(katz_deli)
 
-end
-
-
-def take_a_number(katz_deli, name)
-  number = 1
+def now_serving(katz_deli)
   if katz_deli.empty?
-    katz_deli.push("#{name}")
-  end
+    "There is nobody waiting to be served!"
+  else
+    katz_deli.drop(0)
 end
