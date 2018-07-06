@@ -31,7 +31,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each_with_index do |name, index|
-    katz_deli.join.prepend(" #{index + 1}. ")
+
+    puts "The line is currently: #{katz_deli.join(" #{index + 1}. ")}"
     end
   end
 end
