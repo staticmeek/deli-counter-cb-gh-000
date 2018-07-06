@@ -31,9 +31,7 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    katz_deli.each do |name|
-      puts "The line is currently: #{number}. #{name} "
-    end
-  end
-  katz_deli
+    katz_deli.each_with_index do |item, number|
+      puts "The line is currently: #{number}. #{item}"
+  
 end
