@@ -10,4 +10,5 @@ def line(katz_deli)
   katz_deli.each do |name|
     current_line.push("The line is currently: #{number}. #{name} ")
   end
+  current_line
 end
