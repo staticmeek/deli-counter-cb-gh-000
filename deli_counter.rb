@@ -21,6 +21,6 @@ def take_a_number(katz_deli, name)
     puts "Welcome, #{name}. You are number #{number} in line."
     number +=1
   else
-    katz_deli.length = number + 1
+  katz_deli.%w(name)
   end
 end
