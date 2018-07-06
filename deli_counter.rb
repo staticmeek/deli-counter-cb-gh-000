@@ -33,5 +33,6 @@ def line(katz_deli)
   else
     katz_deli.each_with_index do |item, number|
       puts "The line is currently: #{number}. #{item}"
-  
+    end
+  end
 end
