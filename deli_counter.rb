@@ -7,4 +7,5 @@ def now_serving(katz_deli)
     "There is nobody waiting to be served!"
   else
     katz_deli.drop(0)
+  end
 end
