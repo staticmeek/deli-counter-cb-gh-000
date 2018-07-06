@@ -21,6 +21,12 @@ def take_a_number(katz_deli, name)
     puts "Welcome, #{name}. You are number #{number} in line."
     number +=1
   else
-  katz_deli.%w(name)
+
   end
+end
+
+
+def line(katz_deli)
+  if katz_deli.empty?
+    puts "The line is currently empty."
 end
