@@ -31,10 +31,10 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    message = "The line is currently:"
+    line_status = "The line is currently:"
     katz_deli.each_with_index do |name, index|
-      message += " #{ index.to_i + 1}. #{name}"
+      line_status += " #{ index.to_i + 1}. #{name}"
     end
-    puts "#{message}"
+    puts "#{line_status}"
   end
 end
