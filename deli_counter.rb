@@ -7,5 +7,6 @@ def now_serving(katz_deli)
     "There is nobody waiting to be served!"
   else
     katz_deli.shift
+    print katz_deli
   end
 end
