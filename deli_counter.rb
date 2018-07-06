@@ -16,9 +16,11 @@ def take_a_number(katz_deli, name)
     katz_deli.push(name)
     puts "Welcome, #{name}. You are number #{number} in line."
     number +=1
-  else
+  elsif
     katz_deli.push(name)
     puts "Welcome, #{name}. You are number #{number} in line."
     number +=1
+  else
+
   end
 end
