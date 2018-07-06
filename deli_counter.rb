@@ -31,9 +31,8 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   elsif
-    katz_deli.each do |name|
-      puts "The line is currently: #{number}. #{name} "
-      number +=1
+    katz_deli.join(" #{number}. ")
+
     end
   end
 end
