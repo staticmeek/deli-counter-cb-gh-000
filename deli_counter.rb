@@ -30,8 +30,8 @@ def line(katz_deli)
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    katz_deli.each_with_index do |item, number|
-      puts "The line is currently: #{number + 1}. #{item}"
+    katz_deli.each_with_index do |name, index|
+      puts katz_deli.join(index)
     end
   end
 end
