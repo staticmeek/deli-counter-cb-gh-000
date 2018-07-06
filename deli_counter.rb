@@ -13,7 +13,7 @@ end
 def take_a_number(katz_deli, name)
   number = 1
   if katz_deli.empty?
-    puts "Welcome, #{name}. You are number #{number} in line."
-    number += 1
+    katz_deli.push(name)
+
   end
 end
