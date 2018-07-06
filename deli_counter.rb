@@ -34,6 +34,6 @@ def line(katz_deli)
     katz_deli.each do |name|
       puts "The line is currently: #{number}. #{name} "
       number +=1
-
+    end
   end
 end
