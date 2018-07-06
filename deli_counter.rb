@@ -27,10 +27,11 @@ end
 
 
 def line(katz_deli)
+  number = 1
   if katz_deli.empty?
     puts "The line is currently empty."
   else
-    katz_deli.each_with_index do |name, index|
+    katz_deli.each_with_index do |name|
     puts "The line is currently: #{katz_deli.join(" #{index + 1}. ")}"
     end
   end
