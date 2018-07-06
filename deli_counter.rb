@@ -9,5 +9,5 @@ def now_serving(katz_deli)
     katz_deli.each do |name|
       "Currently serving #{name}."
       katz_deli.shift
-
+    end
 end
